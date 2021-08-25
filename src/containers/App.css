@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@700&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(to left, 
+                                rgba(7, 27, 82, 1) 0%, 
+                                rgba(0, 128,128, 1) 100%);
+}
+
+div h1 {
+  font-family: 'Encode Sans Expanded', sans-serif;
+  color: #F9F9F9;
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.loadmsg {
+  color: #F9F9F9;
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 900px) {
+  .pos-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: -25px;
+  }
+}
